@@ -16,21 +16,21 @@
     }, {
       "id": "72571330-b992-4b73-ba6e-06adce2e9cad",
       "comment": "",
-      "command": "pause",
+      "command": "//pause",
       "target": "3000",
       "targets": [],
       "value": ""
     }, {
       "id": "bc4319ac-1664-44cf-9c16-2d5e67097c6e",
       "comment": "",
-      "command": "verifyElementPresent",
+      "command": "//verifyElementPresent",
       "target": "css=.bs9MN > .ODxmK .\\_32pnf",
       "targets": [],
       "value": ""
     }, {
       "id": "1281c30a-21c5-4a17-a4ae-f27d732939e5",
       "comment": "",
-      "command": "click",
+      "command": "//click",
       "target": "css=.bs9MN > .ODxmK .\\_32pnf",
       "targets": [],
       "value": ""
