@@ -1,0 +1,168 @@
+{
+  "id": "8988fe16-b1ce-41a7-a4e2-715e3901f5ec",
+  "version": "2.0",
+  "name": "Zoovu1",
+  "url": "https://app.interviewme.pl",
+  "tests": [{
+    "id": "cf72c965-26df-49fb-89e8-a2d66e57767c",
+    "name": "Basic Data",
+    "commands": [{
+      "id": "f7f5483d-66c3-40a8-9cb6-b47bb1f12a8b",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.interviewme.pl/template/concept",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72571330-b992-4b73-ba6e-06adce2e9cad",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc4319ac-1664-44cf-9c16-2d5e67097c6e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.bs9MN > .ODxmK .\\_32pnf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1281c30a-21c5-4a17-a4ae-f27d732939e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bs9MN > .ODxmK .\\_32pnf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6826b398-6400-47a7-afd0-bc589e3410ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2w5CA",
+      "targets": [
+        ["css=.\\_2w5CA", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/app/cv/e25b9844-a41c-11eb-bd45-beace83e7dbf/personalization')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "587f1c97-619a-4e1c-8b77-f67d4f8d4ff1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2vCLG",
+      "targets": [
+        ["css=.\\_2vCLG", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div[2]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2a3d163-8239-4c9d-b721-83bc8d2c6bf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2w5CA",
+      "targets": [
+        ["css=.\\_2w5CA", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/app/cv/1deffd0a-a41d-11eb-ab1d-beace83e7dbf/personalization')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3baaf43-cdec-46b4-b671-c245a7ee2ebd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pomiń",
+      "targets": [
+        ["linkText=Pomiń", "linkText"],
+        ["css=.\\_26kYb", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/app/cv/3ebddf98-a41d-11eb-85b0-beace83e7dbf/content')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pomiń')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25e6fb39-69ea-45fa-bc0d-e6dfa731e8bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstName",
+      "targets": [
+        ["name=firstName", "name"],
+        ["css=.EAbgI:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='firstName']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Zygfryd"
+    }, {
+      "id": "8f643292-6d86-4e61-ae72-0706e73a936d",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastName",
+      "targets": [
+        ["name=lastName", "name"],
+        ["css=.\\_240Z9:nth-child(2) .hasValue > .EAbgI", "css:finder"],
+        ["xpath=//input[@name='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Tester"
+    }, {
+      "id": "b85b6af2-95f9-457f-b9f4-cad3602d8bba",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_3Wvmd > input",
+      "targets": [
+        ["css=.\\_3Wvmd > input", "css:finder"],
+        ["xpath=//input[@type='file']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "C:\\Users\\Zygfryd\\Pictures\\1279cded36c5a39ffac5a8b86ffa654c.jpg"
+    }, {
+      "id": "0389132f-c4f9-4c0b-a0a8-512dfc52e190",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iconDirection--null > .\\_2vCLG",
+      "targets": [
+        ["css=.iconDirection--null > .\\_2vCLG", "css:finder"],
+        ["xpath=//div[2]/div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8efa58d3-0fd2-44de-afc9-555ed12370c8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.\\_1segD > div > div > .\\_1XYsq",
+      "targets": [
+        ["css=.\\_1segD > div > div > .\\_1XYsq", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div[2]/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div/div/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Zygfryd Tester"
+    }, {
+      "id": "35e86a46-19c3-436f-b541-adbd6969babc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.aMBYT:nth-child(2)",
+      "targets": [
+        ["css=.aMBYT:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div[2]/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "C:\\Users\\Zygfryd\\Pictures\\1279cded36c5a39ffac5a8b86ffa654c.jpg"
+    }]
+  }],
+  "suites": [{
+    "id": "ba36cbbe-fcb3-4fb7-84c8-b9ba8ef893e0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cf72c965-26df-49fb-89e8-a2d66e57767c"]
+  }],
+  "urls": ["https://app.interviewme.pl/"],
+  "plugins": []
+}
